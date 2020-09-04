@@ -2,7 +2,7 @@
 date: 2018-09-23T10:14
 ---
 
-# Bitcoin
+# O que é Bitcoin?
 
 Todo guia infeliz sobre Bitcoin começa com esta pergunta manjada, e normalmente já vai respondendo que é uma "moeda virtual"[^moeda_virtual], um conceito estúpido que não esclarece nada.
 

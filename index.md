@@ -1,4 +1,4 @@
-# fiatjaf
+# início
 
 > "Vocês vêem? Vêem a história? Vêem alguma coisa? Me parece que estou tentando lhes contar um sonho -- fazendo uma tentativa inútil, porque nenhum relato de sonho pode transmitir a sensação de sonho, aquela mistura de absurdo, surpresa e espanto numa excitação de revolta tentando se impôr, aquela noção de ser tomado pelo incompreensível que é da própria essência dos sonhos..."
 
@@ -9,6 +9,12 @@
 * [Livros mencionados por Olavo de Carvalho](/livros-olavo.html)
 * [Índice de aulas do COF](/cof.html)
 * [Bitcoin explicado de um jeito correto e inteligível](bitcoin)
+
+---
+
+_Written in bad English:_
+
+* [[23977266]]
 
 ---
 
