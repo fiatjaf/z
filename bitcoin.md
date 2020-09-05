@@ -109,6 +109,13 @@ Depois que o Bitcoin foi inventado e seu _insight_ genial foi assimilado pela co
 
 Assim surgiram Litecoin, Ethereum e muitas outras. No fundo são apenas cópias do Bitcoin que tentam melhorá-lo de algum modo ou adicionar outras funções.
 
+# Veja também:
+
+* [[[89f3fd5c]]]
+* [[[27740316]]]
+* [[[75853eb9]]]
+* [[[5854ec2a]]]
+
 ---
 
 [^protocolo]: Neste contexto, um protocolo é um conjunto de regras (inventadas arbitrariamente ou surgidas dos usos e costumes ao longo do tempo) que permitem que dois computadores diferentes se entendam e saibam que tipo de mensagens e comportamentos esperar dos demais.
