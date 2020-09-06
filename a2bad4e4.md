@@ -2,8 +2,7 @@
 date: 2015-06-28
 ---
 
-O Planetinha
-============
+# O Planetinha
 
 Fumaça verde me entrando pelas narinas e um coro desafinado fazia uma base melódica.
 

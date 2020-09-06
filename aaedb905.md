@@ -2,8 +2,7 @@
 date: 2014-03-18
 ---
 
-Problemas com Russell Kirk
-==========================
+# Problemas com Russell Kirk
 
 A idéia central da “política da prudência[^1]” de Russell Kirk me parece muito correta, embora tenha sido melhor formulada pior no seu enorme livro do que em uma pequena frase do joanadarquista Lucas Souza: “o conservadorismo é importante, porque tem muita gente com idéia errada por aí, e nós podemos não saber distingüi-las”.
 

@@ -1,11 +1,13 @@
 ---
 date: 2018-01-01
+tags:
+  - criticisms
+  - ethereum
 ---
 
 # Token-Curated Registries
 
-So you want to build a TCR?
-===========================
+## So you want to build a TCR?
 
 TCRs (Token Curated Registries) are a construct for maintaining registries on Ethereum. Imagine you have lots of scissor brands and you want a list with only the good scissors. You want to make sure only the good scissors make into that list and not the bad scissors. For that, people will tell you, you can just create a TCR of the best scissors!
 
@@ -24,8 +26,7 @@ Now let's look at the incentives of SPCR: people will want to consult the regist
 Amazing! How such a single proposal has such enourmous features! SPCR are going to take over the internet!
 
 
-What TCR enthusiasts get wrong?
-===============================
+## What TCR enthusiasts get wrong?
 
 TCR people think they can just list a set of incentives for something to work and assume that something will work. Mix that with Ethereum hype and they think theyve found something unique and revolutionary, while in fact they're just making a poor implementation of "democracy" systems that fail almost everywhere.
 
@@ -34,8 +35,7 @@ The life is not about listing a set of "incentives" and then considering the pro
 Curating lists is a hard problem, it involves a lot of knowledge about the problem that just holding a token won't give you, it involves personal preferences, politics, it involves knowing where is the real limit between "good" and "bad". The Single Person list may have a good result if the single person doing the curation is knowledgeable and honest (yes, you can game the system to accept your uncle's scissors and not their competitor that is much better, for example, without losing the entire list reputation), same thing for TCRs, but it can also fail miserably, and it can appear to be good but be in fact not so good. In all cases, the list entries will reflect the preferences of people choosing and other things that aren't taken into the incentives equation of TCR enthusiasts.
 
 
-We don't need lists
-===================
+## We don't need lists
 
 The most important point to be made, although unrelated to the incentive story, is that we don't need lists. Imagine you're looking for a scissor. You don't want someone to tell if scissor A or B are "good" or "bad", or if A is "better" than B. You want to know if, for your specific situation, or for a class of situations, A will serve well, and do that considering A's price and if A is being sold near you and all that.
 

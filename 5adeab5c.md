@@ -2,8 +2,7 @@
 date: 2016-11-16
 ---
 
-A memória humana e as databases
-===============================
+# A memória humana e as databases
 
 A comparação entre uma database e a memória humana é trivial, todo mundo pensa. Os exemplos das letras de música e dos rostos humanos citados [neste trabalhinho acadêmico boboca][1] fazem muito sentido: de fato a analogia entre index keys e trechos de música ou rostos humanos parece explicar fenômenos que experimentamos.
 
