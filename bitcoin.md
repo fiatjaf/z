@@ -111,6 +111,7 @@ Assim surgiram Litecoin, Ethereum e muitas outras. No fundo são apenas cópias 
 
 # Veja também:
 
+* [Aos poucos, e aí tudo de uma vez](/aos-poucos.html), Parker Lewis
 * [[[89f3fd5c]]]
 * [[[27740316]]]
 * [[[75853eb9]]]
