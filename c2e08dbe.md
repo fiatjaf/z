@@ -1,5 +1,5 @@
 ---
-date: 2017-11-11T00:32
+date: 2017-11-11
 ---
 
 # Músicas que você já conhece
