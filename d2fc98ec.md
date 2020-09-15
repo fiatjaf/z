@@ -8,4 +8,4 @@ A CLI tool for navigating Trello boards. It used **vorpal** for an "immersive" e
 
 ![screenshot](https://raw.githubusercontent.com/fiatjaf/trelew/master/screenshot.png)
 
-- https://github.com/fiatjaf/trelew
+- <https://github.com/fiatjaf/trelew>

@@ -20,5 +20,5 @@ Não é nada disso que a mente humana faz, eu dizia, porque a _computer vision_ 
 
 Há vários outros pontos que poderiam ser levantados aqui contra o reducionismo e a simplificação da analogia entre a memória humana e uma database simples, e o erro que é igualá-las, mas me perdi, e acho que se você entendeu os pontos que levantei acima saberá encontrar vários outros exemplos nos quais o funcionamento da memória humana ultrapassa em complexidade qualquer algoritmo infinitamente -- e uso aqui "infinitamente" em sentido estritamente literal.
 
-[1]: http://www.iosrjournals.org/iosr-jce/papers/Vol15-issue2/G01525053.pdf?id=8449
-[2]: https://www.edge.org/response-detail/11799
+[1]: <http://www.iosrjournals.org/iosr-jce/papers/Vol15-issue2/G01525053.pdf?id=8449>
+[2]: <https://www.edge.org/response-detail/11799>

@@ -13,7 +13,7 @@ Also, I didn't remember this was also based on CouchDB and had some _couchapp_ f
 
 ![screenshot](https://camo.githubusercontent.com/d3f904a4b01eb613796ace0c33ca101b2fea8199/68747470733a2f2f617263686976652e69732f76414938352f396539323735353334373761643235633364643666343766626635313636666163666534366162632f7363722e706e67)
 
-- https://flowi.es
-- https://github.com/fiatjaf/flowies
+- <https://flowi.es>
+- <https://github.com/fiatjaf/flowies>
 
-[workflowy]: https://workflowy.com/
+[workflowy]: <https://workflowy.com/>

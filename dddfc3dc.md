@@ -12,7 +12,7 @@ Created specially to solve the problem of those scanned books that come with two
 
 It required me to learn about Heroku Buildpacks though, and fork or contribute to a Heroku Buildpack that embedded a [mupdf][mupdf] binary.
 
-- https://github.com/fiatjaf/splitpages
-- https://splitpages.herokuapp.com/
+- <https://github.com/fiatjaf/splitpages>
+- <https://splitpages.herokuapp.com/>
 
-[mupdf]: https://mupdf.com/
+[mupdf]: <https://mupdf.com/>

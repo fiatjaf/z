@@ -23,9 +23,9 @@ O mais espetacular disto é que deu errado e o Brasil inteiro torceu pela Thafne
 
 O movimento de apoio a Thafne é um exemplo entre poucos de união total da nação em prol de uma causa.
 
-[0]: http://www1.folha.uol.com.br/ilustrada/2008/05/407470-aluno-de-escola-publica-de-minas-vence-soletrando-huck-da-vexame.shtml
-[1]: https://misenews.wordpress.com/2012/06/22/o-problema-de-thafne/
-[2]: https://www.youtube.com/watch?v=lNW_QAiptsY
-[3]: https://www.youtube.com/watch?v=Va8XxXgnY-c
-[4]: https://www.putsgrilo.com.br/televisao/soletrando-globo-erra-e-luciano-huck-da-vexame/
-[5]: http://orkut.google.com/c54999457.html
+[0]: <http://www1.folha.uol.com.br/ilustrada/2008/05/407470-aluno-de-escola-publica-de-minas-vence-soletrando-huck-da-vexame.shtml>
+[1]: <https://misenews.wordpress.com/2012/06/22/o-problema-de-thafne/>
+[2]: <https://www.youtube.com/watch?v=lNW_QAiptsY>
+[3]: <https://www.youtube.com/watch?v=Va8XxXgnY-c>
+[4]: <https://www.putsgrilo.com.br/televisao/soletrando-globo-erra-e-luciano-huck-da-vexame/>
+[5]: <http://orkut.google.com/c54999457.html>
