@@ -18,6 +18,7 @@ Cada erro é acompanhado também de uma sugestão de como corrigi-lo.
   - _suporte_ (ao cliente): **atendimento**
   - _suportar_ (uma idéia, um projeto): **apoiar**, **financiar**
   - _suportar_ (uma função, recurso, característica): **oferecer**, **ser compatível com**
+  - _literacia_: **instrução**, **alfabetização**
 
 ### Aportuguesamentos desnecessários
 
