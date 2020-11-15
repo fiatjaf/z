@@ -9,13 +9,15 @@
 * [Livros mencionados por Olavo de Carvalho](/livros-olavo.html)
 * [Índice de aulas do COF](/cof.html)
 * [Bitcoin explicado de um jeito correto e inteligível](bitcoin)
+* [[495d223f]]
 
 ---
 
 * [[23977266]]
 * [[d5031e5b]]
 * [[93705406]]
-* [[884cf0fe]]
+* [[economics]]
+* [Open-source software](software)
 
 ---
 

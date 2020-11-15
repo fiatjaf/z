@@ -15,4 +15,6 @@ Just a bunch of somewhat-related notes.
 * [[[678f0cc2]]]
 * [[[29ee2b73]]]
 * [[[0741a013]]]
-- [[[e3c1bd42]]]
+* [[[e3c1bd42]]]
+* [[[2fa6b215]]]
+* [[[0854781f]]]
