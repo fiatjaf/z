@@ -8,6 +8,8 @@ tags:
 
 _a payments network based on trust channels_
 
+This is the description of a Lightning-like network that will work only with credit or trust-based channels and exist alongside the normal Lightning Network. I imagine some people will think this is undesirable and at the same time very easy to do (such that if it doesn't exist yet it must be because no one cares), but in fact it is a very desirable thing -- which I hope I can establish below -- and at the same time a very non-trivial problem to solve, as the history of Ryan Fugger's Ripple project and posterior copies of it show.
+
 Read these first to get the full context:
 
 1. [[[dfd6b115]]]

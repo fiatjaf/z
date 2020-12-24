@@ -1,1 +1,4 @@
 .neuron
+
+# Local Netlify folder
+.netlify
