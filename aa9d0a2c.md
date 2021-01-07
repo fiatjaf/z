@@ -16,7 +16,7 @@ After a big lot of people manifested their dissatisfaction with that event on Tw
 
 The event has shown that:
 
-1) Bitcoin Core ultimately rests on the hands of a couple maintainers and they decide what goes on the GitHub repository and the binary releases that will be downloaded by thousands;
+1) Bitcoin Core ultimately rests on the hands of a couple maintainers and they decide what goes on the GitHub repository[^pr-merged-very-quickly] and the binary releases that will be downloaded by thousands;
 2) Bitcoin Core is susceptible to social attacks;
 2) "More eyes on code" don't matter, as these extra eyes can be ignored and dismissed.
 
@@ -37,5 +37,13 @@ This way we keep the best of both worlds: all software development, bugfixes, im
 The first example of a `bitcoind` software that follows Bitcoin Core closely, adds some small changes, but has an independent vetting and release process is [Bitcoin Knots][knots], maintained by the incorruptible Luke DashJr.
 
 Next time you decide to run `bitcoind`, run Bitcoin Knots instead and contribute to `bitcoind` decentralization!
+
+---
+
+### See also:
+
+- [[2873aa84]]
+
+[^pr-merged-very-quickly]: See [PR 20624](https://github.com/bitcoin/bitcoin/pull/20624], for example, a very complicated change that [could be introducing bugs or be a deliberate attack](http://www.erisian.com.au/wordpress/2021/01/07/bitcoin-in-2021), merged in 3 days without time for discussion.
 
 [knots]: https://bitcoinknots.org/
