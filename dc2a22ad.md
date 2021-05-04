@@ -19,6 +19,9 @@ Cada erro é acompanhado também de uma sugestão de como corrigi-lo.
   - _suportar_ (uma idéia, um projeto): **apoiar**, **financiar**
   - _suportar_ (uma função, recurso, característica): **oferecer**, **ser compatível com**
   - _literacia_: **instrução**, **alfabetização**
+  - _convoluto_: **complicado**.
+  - _acurácia_: **precisão**.
+  - _resiliência_: **resistência**.
 
 ### Aportuguesamentos desnecessários
 

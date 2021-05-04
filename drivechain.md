@@ -125,5 +125,6 @@ That is the entire point! You don't have to like it or use it as long as you're 
 
 ## See also
 
+* [Podcast episode with Ruben Somsen and Aaron van Wirdum explaining Drivechain](https://www.youtube.com/watch?v=DhU6nsB5Z-0)
 * [[0fbc9fa6]]
 * [[e4480e82]]
