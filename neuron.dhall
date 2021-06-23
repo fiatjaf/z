@@ -1,4 +1,4 @@
 { siteTitle = "fiatjaf"
-, siteBaseUrl = Some "https://fiatjaf.alhur.es"
+, siteBaseUrl = Some "https://fiatjaf.com"
 , theme = "olive"
 }
