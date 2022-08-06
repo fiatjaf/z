@@ -10,8 +10,8 @@ Cada erro é acompanhado também de uma sugestão de como corrigi-lo.
 
 ### Palavras que existem em português com sentido diferente
 
-  - _submissão_ (de trabalhos): **envio**, **apresentação** (exemplo: https://www.conbiounesp.com/)
-  - _disrupção_: **perturbação** (exemplo: https://www.youtube.com/watch?v=VScVCr5iMWM)
+  - _submissão_ (de trabalhos): **envio**, **apresentação**
+  - _disrupção_: **perturbação**
   - _assumir_: **considerar**, **pressupor**, **presumir**
   - _realizar_: **perceber**
   - _endereçar_: **tratar de**
