@@ -11,4 +11,4 @@ Basically instead of a subscription and becoming member of something, you just g
 
 Every time someone donates a notice is posted in the group page.
 
-Perhaps that could be an [@lntxbot](t.me/lntxbot) feature.
+Perhaps that could be an [@lntxbot](https://t.me/lntxbot) feature.

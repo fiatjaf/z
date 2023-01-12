@@ -42,7 +42,7 @@ It could work like this:
         sha256(the previous block ID +
                the merkle root of all the entries)
     ```
-3. To be mined, each parallel block must be included in the Bitcoin chain according [as explained above](a675823c).
+3. To be mined, each parallel block must be included in the Bitcoin chain according [[a675823c|as explained above]].
 
 Now that we have a structure for a simple "blockchain" that is completely useless, just blocks over blocks of meaningless values, we proceed to the next step of assigning meaning to these values.
 

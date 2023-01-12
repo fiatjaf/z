@@ -36,7 +36,7 @@ Eltoo is better because nodes only have to keep the last set of update and settl
 
 ## If it is so better why didn't they do it first?
 
-Because they didn't have the idea. And also because they needed an update to the Bitcoin protocol that allowed the presigned **update** transactions to spend any of the previous **update** transactions. This protocol update is called `SIGHASH_NOINPUT`[^anyprevout], you've seen this name out there. By marking a transaction with `SIGHASH_NOINPUT` it enters a mystical state and becomes a _floating transaction_ that can be bound to any other [transaction](5f5112d7) as long as its unlocking script matches the locking script.
+Because they didn't have the idea. And also because they needed an update to the Bitcoin protocol that allowed the presigned **update** transactions to spend any of the previous **update** transactions. This protocol update is called `SIGHASH_NOINPUT`[^anyprevout], you've seen this name out there. By marking a transaction with `SIGHASH_NOINPUT` it enters a mystical state and becomes a _floating transaction_ that can be bound to any other [[5f5112d7|transaction]] as long as its unlocking script matches the locking script.
 
 ## Why can't update2 bind itself to update4 and spend that?
 

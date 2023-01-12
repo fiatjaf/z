@@ -4,7 +4,7 @@ date: 2016-08-30
 
 # Flowi.es
 
-At the time I thought [Workflowy][workflowy] had the ideal UI for everything. I wanted to implement my [custom app maker](dc2e9161) on it, but ended up doing this: a platform for enhancing Workflowy with extra features:
+At the time I thought [Workflowy][workflowy] had the ideal UI for everything. I wanted to implement my [[dc2e9161|custom app maker]] on it, but ended up doing this: a platform for enhancing Workflowy with extra features:
 
 - An email reminder based on dates input in items
 - A website generator, similar to [[246c2737]], also based on [[b24a7e10]]

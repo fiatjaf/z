@@ -95,7 +95,7 @@ Exemplo:
   4. Agora Bóris quer pagar 17 satoshis para Ângela, eles criam uma nova transação que transfere 817 para Ângela e 173 para Bóris
   5. E assim por diante eles vão criando novas transações que invalidam as anteriores e vão alterando o "saldo" da via de pagamento. Quando qualquer um dos dois quiser sacar o dinheiro que tem no saldo é só publicar a última transação e pronto.
 
-A [rede Relâmpago](5854ec2a) é uma grande rede de canais de pagamento que permite que pessoas façam pagamentos para pessoas não diretamente ligadas a elas por canais diretos, mas através de uma rota que percorre vários canais de outrem e ajusta seus saldos.
+A [[5854ec2a|rede Relâmpago]] é uma grande rede de canais de pagamento que permite que pessoas façam pagamentos para pessoas não diretamente ligadas a elas por canais diretos, mas através de uma rota que percorre vários canais de outrem e ajusta seus saldos.
 
 # Existem outras criptomoedas além do Bitcoin?
 
@@ -111,7 +111,7 @@ Assim surgiram Litecoin, Ethereum e muitas outras. No fundo são apenas cópias 
 
 # Veja também:
 
-* [Aos poucos, e aí tudo de uma vez](/aos-poucos.html), Parker Lewis
+* [Aos poucos, e aí tudo de uma vez](https://fiatjaf.com/aos-poucos.html), Parker Lewis
 * [[[89f3fd5c]]]
 * [[[27740316]]]
 * [[[75853eb9]]]
