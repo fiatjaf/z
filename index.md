@@ -21,4 +21,4 @@
 
 ---
 
-[Twitter](https://twitter.com/fiatjaf) [Keybase](https://keybase.io/fiatjaf) [GitHub](https://github.com/fiatjaf) [Telegram](https://t.me/fiatjaf) [Donate](lnurlp://lntxbot.com/.well-known/lnurlp/fiatjaf)
+[Nostr](nostr:npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6) [Twitter](https://twitter.com/fiatjaf) [Keybase](https://keybase.io/fiatjaf) [GitHub](https://github.com/fiatjaf) [Telegram](https://t.me/fiatjaf) [Donate](lnurlp://lntxbot.com/.well-known/lnurlp/fiatjaf)
