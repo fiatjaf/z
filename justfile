@@ -4,3 +4,19 @@ build:
 
 deploy: build
     rsync --delete-excluded -r ./dist/* turgot:fiatjaf.com/zettelkasten/
+
+new:
+    #!/usr/bin/env python
+    import random
+    import datetime
+    filename = bytes([int(random.random()*256) for n in range(4)]).hex() + '.md'
+    file = open(filename, 'w')
+    now = datetime.datetime.now().isoformat()[0:-10]
+    file.write(f"""---
+    date: {now}
+    ---
+
+    #
+
+    """)
+    print(filename)
