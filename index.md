@@ -6,9 +6,9 @@
 
 > "... Não, é impossível; é impossível transmitir a sensação viva de qualquer época determinada de nossa existência -- aquela que constitui a sua verdade, o seu significado, a sua essência sutil e contundente. É impossível. Vivemos, como sonhamos -- sozinhos..."
 
-* [Livros mencionados por Olavo de Carvalho](/livros-olavo.html)
-* [Índice de aulas do COF](/cof.html)
-* [Bitcoin explicado de um jeito correto e inteligível](bitcoin)
+* [Livros mencionados por Olavo de Carvalho](https://fiatjaf.com/livros-olavo.html)
+* [Índice de aulas do COF](https://fiatjaf.com/cof.html)
+* [[bitcoin|Bitcoin explicado de um jeito correto e inteligível]]
 * [[495d223f]]
 
 ---
@@ -17,7 +17,7 @@
 * [[d5031e5b]]
 * [[93705406]]
 * [[economics]]
-* [Open-source software](software)
+* [[software|Open-source software]]
 
 ---
 

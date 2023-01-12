@@ -1,0 +1,14 @@
+page:
+  siteTitle: fiatjaf
+  siteName: jaffiat
+  headHtml: |
+    <snippet var="js.highlightjs" />
+    <meta name="lightning" content="lnurlp:fiatjaf@zbd.gg" />
+
+template:
+  name: /templates/layouts/note
+  layout:
+    base:
+      bodyClass: bg-yellow-100
+  theme: emerald
+  iconUrl: https://fiatjaf.com/gotasnajanela.jpg
