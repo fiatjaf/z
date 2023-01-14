@@ -44,6 +44,6 @@ Next time you decide to run `bitcoind`, run Bitcoin Knots instead and contribute
 
 - [[2873aa84]]
 
-[^pr-merged-very-quickly]: See [PR 20624](https://github.com/bitcoin/bitcoin/pull/20624], for example, a very complicated change that [could be introducing bugs or be a deliberate attack](http://www.erisian.com.au/wordpress/2021/01/07/bitcoin-in-2021), merged in 3 days without time for discussion.
+[^pr-merged-very-quickly]: See [PR 20624](https://github.com/bitcoin/bitcoin/pull/20624), for example, a very complicated change that [could be introducing bugs or be a deliberate attack](http://www.erisian.com.au/wordpress/2021/01/07/bitcoin-in-2021), merged in 3 days without time for discussion.
 
 [knots]: https://bitcoinknots.org/

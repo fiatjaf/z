@@ -1,6 +1,5 @@
 page:
   siteTitle: fiatjaf
-  siteName: jaffiat
   headHtml: |
     <snippet var="js.highlightjs" />
     <meta name="lightning" content="lnurlp:fiatjaf@zbd.gg" />
