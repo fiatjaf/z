@@ -1,5 +1,8 @@
 ---
 date: 2019-11-20T12:48
+tags:
+  - idea/protocol
+  - nostr
 ---
 
 # nostr - Notes and Other Stuff Transmitted by Relays

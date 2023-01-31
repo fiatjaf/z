@@ -21,4 +21,4 @@
 
 ---
 
-[Nostr](nostr:npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6) [Twitter](https://twitter.com/fiatjaf) [Keybase](https://keybase.io/fiatjaf) [GitHub](https://github.com/fiatjaf) [Telegram](https://t.me/fiatjaf) [Donate](lnurlp://lntxbot.com/.well-known/lnurlp/fiatjaf)
+[Nostr](nostr:nprofile1qqsrhuxx8l9ex335q7he0f09aej04zpazpl0ne2cgukyawd24mayt8gpyfmhxue69uhkummnw3ez6an9wf5kv6t9vsh8wetvd3hhyer9wghxuet5fmsq8j) [Twitter](https://twitter.com/fiatjaf) [Keybase](https://keybase.io/fiatjaf) [GitHub](https://github.com/fiatjaf) [Telegram](https://t.me/fiatjaf) [Donate](lnurlp://zbd.gg/.well-known/lnurlp/fiatjaf)
