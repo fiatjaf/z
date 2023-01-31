@@ -1,7 +1,7 @@
 build:
     mkdir -p dist
     rm -rf dist/*
-    podman run -e LANG=C.UTF-8 -e LC_ALL=C.UTF-8 --tmpfs /tmp -v $PWD:/data sridca/emanote emanote gen /data/dist
+    podman run --rm -e LANG=C.UTF-8 -e LC_ALL=C.UTF-8 --tmpfs /tmp -v $PWD:/data sridca/emanote emanote gen /data/dist
 
 deploy: build
     rsync --delete-excluded -r ./dist/* turgot:fiatjaf.com/zettelkasten/
