@@ -6,6 +6,9 @@ build:
 deploy: build
     rsync --delete-excluded -r ./dist/* turgot:fiatjaf.com/zettelkasten/
 
+serve:
+    cd dist && python -m http.server 8000
+
 new:
     #!/usr/bin/env python
     import random
