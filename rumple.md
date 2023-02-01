@@ -12,10 +12,10 @@ This is the description of a Lightning-like network that will work only with cre
 
 Read these first to get the full context:
 
-1. [[[dfd6b115]]]
-2. [[[3cb7c325]]]
-3. [[[e3624832]]]
-4. [[[a675823c]]]
+1. [[dfd6b115]]#
+2. [[3cb7c325]]#
+3. [[e3624832]]#
+4. [[a675823c]]#
 
 ## Explanation about the name
 
