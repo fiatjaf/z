@@ -8,7 +8,7 @@
   --nc-text-color: #333;
 }
       </style>
-      <script src="https://nocomment.netlify.app/embed.js" id="nocomment"></script>
+      <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment"></script>
     </with>
   </ema:metadata>
 </div>
