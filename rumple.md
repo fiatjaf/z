@@ -71,29 +71,25 @@ Now that we have a structure for a simple "blockchain" that is completely useles
 
     It has been said multiple times that if trust is involved then we don't need Lightning, we can use Coinbase, or worse, Paypal. This is very wrong. Lightning is good specially because it serves as a bridge between Coinbase, Paypal, other custodial provider and someone running their own node. All these can transact freely across the network and pay each other without worrying about who is in which provider or setup.
 
-    Rumple inherits that openness. In a Rumple Network
+    Rumple inherits that openness. In a Rumple Network anyone is free to open new trust channels and immediately route payments to anyone else.
 
-    Also, since Rumple payments are also based on the reveal of a preimage it can do swaps with Lightning inside a payment route from day 1 (by which I mean one can pay from Rumple to Lightning and vice-versa).
-
-     ‎
+    Also, since Rumple payments are also based on the reveal of a preimage it can do swaps with Lightning inside a payment route from day one (by which I mean one can pay from Rumple to Lightning and vice-versa).
 
 3. **Rumple fixes Lightning's fragility**
 
     Lightning is too fragile.
 
-    Some issues, like the [flood-and-loot](https://www.coindesk.com/bitcoins-lightning-network-is-vulnerable-to-looting-new-research-explains) attack, for example, although not an attack that's simple to execute, it's still dangerous even if failed. Given that risk, it's important to not ever open channels with random anonymous people. Some degree of trust must exist between peers.
+    It's known that Lightning is vulnerable to multiple attacks -- like the [flood-and-loot](https://www.coindesk.com/bitcoins-lightning-network-is-vulnerable-to-looting-new-research-explains) attack, for example, although not an attack that's easy to execute, it's still dangerous even if failed. Given the existence of these attacks, it's important to not ever open channels with random anonymous people. Some degree of trust must exist between peers.
 
-    One does not even have to consider attacks. The creation of HTLCs is a liability that every node has to do multiple times during its life. Every initiated, received or forwarded payment require adding one HTLC then removing it from the commitment transaction. Every
+    But one does not even have to consider attacks. The creation of HTLCs is a liability that every node has to do multiple times during its life. Every initiated, received or forwarded payment require adding one HTLC then removing it from the commitment transaction.
 
-    Another issue that makes trust needed between peers is the fact that channels can be closed unilaterally. Although this is a feature, it is also a bug when considering high-fee environments. Imagine you pay $10 in fees to open a channel, your peer may close that unilaterally in the next second and then you have to pay another $15 to close the channel. The opener pays (this is also a feature that [can double as a bug](https://lists.linuxfoundation.org/pipermail/lightning-dev/2020-October/002804.html) by itself). Even if it's not you opening the channel, a peer can open a channel with you, make a payment, then clone the channel, and now you're left with, say, an output of 4200 satoshis, which is equal to zero if network fees are high.
+    Another issue that makes trust needed between peers is the fact that channels can be closed unilaterally. Although this is a feature, it is also a bug when considering high-fee environments. Imagine you pay $2 in fees to open a channel, your peer may close that unilaterally in the next second and then you have to pay another $15 to close the channel. The opener pays (this is also a feature that [can double as a bug](https://lists.linuxfoundation.org/pipermail/lightning-dev/2020-October/002804.html) by itself). Even if it's not you opening the channel, a peer can open a channel with you, make a payment, then clone the channel, and now you're left with, say, an output of 800 satoshis, which is equal to zero if network fees are high.
 
-    So you should only open channels with people you know and know aren't going to actively try to hack you and people who are not going to close channels and impose unnecessary costs on you. But even considering a fully trusted Lightning Network, even if -- to be extreme -- you only opened channels with yourself, these channels would still be fragile. If some HTLC get stuck for any reason (peer offline or some weird small incompatibility between node softwares) and you're forced to close the channel because of that, there are the extra costs of sweeping these UTXO outputs plus the total costs of closing and reopening a channel that shouldn't have been closed in the first place. Even if HTLCs don't get stuck, [a fee renegotiation during a mempool spike](https://twitter.com/renepickhardt/status/1321862538859073548) may cause channels to force-close, become valueless or settle for very high closing fee.
+    So you should only open channels with people you know and know aren't going to actively try to hack you and people who are not going to close channels and impose unnecessary costs on you. But even considering a fully trusted Lightning Network, even if -- to be extreme -- you only opened channels with yourself, these channels would still be fragile. If some HTLC gets stuck for any reason (peer offline or some weird small incompatibility between node softwares) and you're forced to close the channel because of that, there are the extra costs of sweeping these UTXO outputs plus the total costs of closing and reopening a channel that shouldn't have been closed in the first place. Even if HTLCs don't get stuck, a [fee renegotiation event during a mempool spike](https://twitter.com/renepickhardt/status/1321862538859073548) may cause channels to force-close, become valueless or settle for very high closing fee.
 
     Some of these issues are mitigated by Eltoo, others by only having channels with people you trust. Others referenced above, plus the [the griefing attack](https://twitter.com/joostjgr/status/1308414364911841281) and in general the ability of anyone to spam the network for free with payments that can be pending forever or a lot of payments fail repeatedly makes it very fragile.
 
     Rumple solves most of these problems by not having to touch the blockchain at all. Fee negotiation makes no sense. Opening and closing channels is free. Flood-and-loot is a non-issue. The griefing attack can be still attempted as funds in trust channels must be reserved like on Lightning, but since there should be no theoretical limit to the number of prepared payments a channel can have, the griefing must rely on actual amounts being committed, which prevents large attacks from being performed easily.
-
-     ‎
 
 4. **Rumple fixes Lightning's unsolvable reputation issues**
 
@@ -101,50 +97,40 @@ Now that we have a structure for a simple "blockchain" that is completely useles
 
     Replacing these payments with tables of reputation between peers is also an unsolved problem[^reputation-lightning], for the same reasons explained in the thread above.
 
-     ‎
-
 5. **Rumple solves the hot wallet problem**
 
     Since you don't have to use Bitcoin keys or sign transactions with a Rumple node, only your channel trust is at risk at any time.
-
-     ‎
 
 6. **Rumple ends custodianship**
 
     Since no one is storing other people's funds, a big hub or wallet provider can be used in multiple payment routes, but it cannot be immediately classified as a "custodian". At best, it will be a big debtor.
 
-     ‎
-
 7. **Rumple is fun**
 
     Opening channels with strangers is boring. Opening channels with friends and people you trust even a little makes that relationship grow stronger and the trust be reinforced.
-    (But of course, like it happens in the Lightning Network today, if Rumple is to be successful the bulk of trust will be from isolated users to big reliable hubs.)
+    (But of course, like it happens in the Lightning Network today, if Rumple is successful the bulk of trust will be from isolated users to big reliable hubs.)
 
 ## Questions or potential issues
 
 1. **So many advantages, yes, but trusted? Custodial? That's easy and stupid!**
 
-    Well, an enormous part of the current Lightning Network (and also onchain Bitcoin wallets) already rests on trust, mainly trust between users and custodial wallet providers like BlueWallet, WalletofSatoshi and others. Worse: on the current Lightning Network users not only trust, they also expose their entire transaction history to these providers[^hosted-channels].
+    Well, an enormous part of the current Lightning Network (and also onchain Bitcoin wallets) already rests on trust, mainly trust between users and custodial wallet providers like ZEBEDEE, Alby, Wallet-of-Satoshi and others. Worse: on the current Lightning Network users not only trust, they also expose their entire transaction history to these providers[^hosted-channels].
 
     Besides that, as detailed in point 3 of the previous section, there are many unsolvable issues on the Lightning protocol that make each sovereign node dependent on some level of trust in its peers (and the network in general dependent on trusting that no one else will spam it to death).
 
-    So given the current state of the Lightning Network, to trust peers like Rumple requires is not a giant change -- but it is still a significant change: in Rumple you shouldn't open a large trust channel with someone just because it looks trustworthy, you must personally know that person and only put in what you're willing to lose. In known brands that have reputation to lose you can probably deposit more trust, same for long-term friends, and that's all. Still it is probably good enough, given the existence of MPP payments and the fact that the purpose of Rumple is to be a payments network for day-to-day purchases not a way to buy real estate.
-
-     ‎
+    So, given the current state of the Lightning Network, to trust peers like Rumple requires is not a giant change -- but it is still a significant change: in Rumple you shouldn't open a large trust channel with someone just because it looks trustworthy, you must personally know that person and only put in what you're willing to lose. In known brands that have reputation to lose you can probably deposit more trust, same for long-term friends, and that's all. Still it is probably good enough, given the existence of MPP payments and the fact that the purpose of Rumple is to be a payments network for day-to-day purchases and not a way to buy real estate.
 
 2. **Why would anyone run a node in this parallel chain?**
 
-    I don't know. Ideally every server running a Rumple Network node will be running a Bitcoin node and a Rumple Chain node. Besides using it to confirm and publish your own Rumple Network transactions it can be set to mine automatically on the Bitcoin chain and maybe earn some change comparable to running a Lightning routing node or a JoinMarket Yield Generator.
+    I don't know. Ideally every server running a Rumple Network node will be running a Bitcoin node and a Rumple chain node. Besides using it to confirm and publish your own Rumple Network transactions it can be set to do BMM mining automatically and maybe earn some small fees comparable to running a Lightning routing node or a JoinMarket yield generator.
 
-    Also it must be really lightweight, as pruning is completely free and no verification-since-the-genesis-block will take place.
-
-    ‎
+    Also it will probably be very lightweight, as pruning is completely free and no verification-since-the-genesis-block will take place.
 
 10. **What is the maturity of the debt that exists in the Rumple Network or its legal status?**
 
-    By default it is to be understood as being payable on demand for payments occurring inside the network (as credit can be used to forward or initiate payments by the creditor using that channel). But details of settlement outside the network or what happens if one of the peers disappears cannot be enforced or specified by the network.
+    By default it is to be understood as being payable _on demand for payments occurring inside the network_ (as credit can be used to forward or initiate payments by the creditor using that channel). But details of settlement outside the network or what happens if one of the peers disappears cannot be enforced or specified by the network.
 
-    Perhaps negotiated some standard optional settlement methods (like a Bitcoin address) can be announced and negotiated upon channel creation inside the protocol, but nothing more than that.
+    Perhaps some standard optional settlement methods (like a Bitcoin address) can be announced and negotiated upon channel creation inside the protocol, but nothing more than that.
 
 [^thread-402]: Read at least the first 10 messages of the thread to see how naïve proposals like you and me could have thought about are brought up and then dismantled very carefully by the group of people most committed to getting Lightning to work properly.
 [^reputation-lightning]: See also the footnote at [[3cb7c325]].
