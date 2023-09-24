@@ -7,7 +7,7 @@
 > "... Não, é impossível; é impossível transmitir a sensação viva de qualquer época determinada de nossa existência -- aquela que constitui a sua verdade, o seu significado, a sua essência sutil e contundente. É impossível. Vivemos, como sonhamos -- sozinhos..."
 
 * [Livros mencionados por Olavo de Carvalho](https://fiatjaf.com/livros-olavo.html)
-* [Índice de aulas do COF](https://www.rafaelalmeida.com/cof.html)
+* [Antiga _homepage_ Olavo de Carvalho](https://site.olavo.fiatjaf.com "Sapientiam autem non vincit malitia")
 * [[bitcoin|Bitcoin explicado de um jeito correto e inteligível]]
 * [[495d223f]]
 
